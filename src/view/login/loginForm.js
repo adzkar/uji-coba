@@ -5,6 +5,7 @@ import {GetAttrs} from '../../global/utility'
 import './style.css'
 
 const LoginForm = (props) =>{
+	console.log(props)
 	const [username, pass] = GetAttrs(props.login,['username', 'password'])
 	return(
 		<div className='login_form'>
